@@ -1,0 +1,21 @@
+{
+  "name": "codecli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "code-test": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^5.1.2",
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "open": "^8.4.0"
+  }
+}
