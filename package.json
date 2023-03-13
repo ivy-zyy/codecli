@@ -1,7 +1,7 @@
 {
-  "name": "codecli",
+  "name": "smart-code-cli",
   "version": "0.1.0",
-  "description": "",
+  "description": "test tool",
   "main": "index.js",
   "bin": {
     "code-test": "index.js"
@@ -10,12 +10,24 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "ey011",
   "license": "ISC",
   "devDependencies": {
     "chalk": "^5.1.2",
     "commander": "^9.4.1",
     "download-git-repo": "^3.0.2",
     "open": "^8.4.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://zey011: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@github.com/ivy-zyy/codecli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivy-zyy/codecli/issues"
+  },
+  "homepage": "https://github.com/ivy-zyy/codecli#readme"
 }
